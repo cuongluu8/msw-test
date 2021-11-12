@@ -1,6 +1,6 @@
 import { graphql } from "msw";
 
-const handler = (req, res, ctx) => {
+export const handler = (req, res, ctx) => {
   const { var1 } = req.variables;
 
   return res(
